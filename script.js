@@ -230,13 +230,13 @@ for (let i = 0; i <= 10; i++) {
 
 
 
-const year = [2001, 2002, 2003];
+const year = [2001, 2004, 2003];
 const age = [];
 
 for (let i = 0; i < year.length; i++) {
     age.push(2035 - year[i]);
 };
-
+g
 let dice = Math.trunc(Math.random() * 6) + 1;
 
 while (dice !== 6) {
