@@ -237,10 +237,6 @@ for (let i = 0; i < year.length; i++) {
     age.push(2035 - year[i]);
 };
 
-console.log(age);
-
-
-
 let dice = Math.trunc(Math.random() * 6) + 1;
 
 while (dice !== 6) {
